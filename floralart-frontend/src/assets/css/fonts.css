@@ -1,0 +1,21 @@
+
+@font-face {
+  font-family: "DeliusUnicase";
+  src: local("DeliusUnicase"),
+  url("../fonts/Delius_Unicase/DeliusUnicase-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "DeliusUnicaseBold";
+  src: local("DeliusUnicaseBold"),
+  url("../fonts/Delius_Unicase/DeliusUnicase-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+  url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+}

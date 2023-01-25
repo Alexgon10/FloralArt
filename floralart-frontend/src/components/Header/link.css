@@ -1,0 +1,6 @@
+.link{
+    margin-left: 16px;
+    text-decoration: none;
+    color: var(--darkPink);
+    font-size: 18px;
+}
