@@ -1,0 +1,40 @@
+
+.base-image-layer {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    opacity: 85%;
+    overflow: visible;
+}
+
+.main-text {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 96px;
+    line-height: 1;
+    color: white;
+    font-family: DeliusUnicaseBold;
+    text-shadow: 8px 10px 25px black;
+}
+
+.addition-text {
+    position: absolute;
+    bottom: 33%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 50px;
+    line-height: 1;
+    color: white;
+    font-family: Montserrat;
+    text-shadow: 8px 10px 25px black;
+    white-space: nowrap;
+}

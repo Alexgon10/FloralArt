@@ -1,0 +1,29 @@
+button {
+    width: 140px;
+    height: 36px;
+    margin-left: 10px;
+    border-radius: 6px;
+    outline-width: 0;
+    border: solid 1px;
+    cursor: pointer;
+}
+
+.painted {
+    color: var(--lightPink);
+    background-color: white;
+    border-color: var(--lightPink);
+}
+
+.notPainted {
+    color: white;
+    background-color: var(--lightPink);
+    border-color: var(--lightPink);
+}
+
+.painted:hover {
+    border: solid 2px;
+}
+
+.notPainted:hover {
+    border-color: white;
+}

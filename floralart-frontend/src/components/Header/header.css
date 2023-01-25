@@ -1,0 +1,37 @@
+.floral-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 4rem;
+    background-color: white;
+}
+
+.label {
+    padding-left: 10px;
+    flex-basis: 15%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-basis: 60%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration-color: var(--lightPink);
+    font-family: Montserrat;
+    font-size: large;
+}
+/*"basis-1/4 flex flex-row justify-end items-center space-x-4 mx-5"*/
+
+.buttons{
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 2px;
+}
+
