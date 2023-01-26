@@ -15,26 +15,37 @@ export function MainPage() {
             <Header login='alexgon10@mail.ru'/>
             <BaseImageLayer/>
             <div className="what-is-floral">
-                <div className="text grid-item">
+                <div className="grid-item text ">
                     <div className="label">
                         Что такое керамическая флористика?
                     </div>
                     <br/>
-                    <div >
-                        Керамическая флористика - это искусство создания цветов и флористических композиций с помощью специальной техники ручной работы и специальной полимерной глины или холодного фарфора.
+                    <div>
+                        Керамическая флористика - это искусство создания цветов и флористических композиций с помощью
+                        специальной техники ручной работы и специальной полимерной глины или холодного фарфора.
                     </div>
                     <br/>
-                    <div >
+                    <div>
                         При помощи данных материалов удается создавать вечно живые и невероятно реалистичные композиции.
                     </div>
                 </div>
-                <div className="grid-item">
-                    <img src={flower} alt="first_bg" className="pic" />
+                <div className="grid-item pic">
+                    <img src={flower} alt="first_bg"/>
                 </div>
             </div>
 
             <div className="present">
-                    sdkjfakjsdhfadsk;f
+                <div className="item" >
+                    Дарите
+                </div>
+                <div className="item">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                </div>
+                <div className="item pictures">
+                    <div>pic</div>
+                    <div>pic</div>
+                    <div>pic</div>
+                </div>
 
             </div>
             <div className="create">
@@ -46,28 +57,28 @@ export function MainPage() {
 
             </div>
             <div className="what-is-floral">
-                <div className="grid-item">
-                    <img src={redRose} alt="first_bg" className="pic" />
+                <div className="grid-item pic">
+                    <img src={redRose} alt="first_bg"/>
                 </div>
                 <div className="text grid-item">
                     <div className="label">
                         Что такое керамическая флористика?
                     </div>
                     <br/>
-                    <div >
-                        Керамическая флористика - это искусство создания цветов и флористических композиций с помощью специальной техники ручной работы и специальной полимерной глины или холодного фарфора.
+                    <div>
+                        Керамическая флористика - это искусство создания цветов и флористических композиций с помощью
+                        специальной техники ручной работы и специальной полимерной глины или холодного фарфора.
                     </div>
                     <br/>
-                    <div >
+                    <div>
                         При помощи данных материалов удается создавать вечно живые и невероятно реалистичные композиции.
                     </div>
                 </div>
             </div>
 
 
-
             <div className="rose-bg">
-                <img src={roseBg} alt="first_bg" />
+                <img src={roseBg} alt="first_bg"/>
             </div>
             <div className="quote">
 
