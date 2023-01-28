@@ -9,35 +9,32 @@
 }
 
 .what-is-floral .grid-item {
-    /*align-items: center;*/
-    /*justify-items: center;*/
-}
 
-.what-is-floral .pic {
-    margin: auto;
-    width: 80%;
-    height: 80%;
-    object-fit: cover;
-    overflow: visible;
+    align-items: center;
+    justify-items: center;
 }
 
 .what-is-floral .text {
     width: 75%;
     text-align: left;
     overflow: auto;
-    font-size: 18px;
+    font-size: 2.2vh;
     font-family: Montserrat;
-    margin-top: 20px;
-
 }
 
 .what-is-floral .text .label {
-    font-size: 24px;
+    font-size: 3vh;
     font-weight: bold;
     padding-bottom: 30px;
     padding-left: 0;
     line-height: 36px;
     color: var(--darkPink);
+}
+
+.what-is-floral .pic {
+    width: 70%;
+    object-fit: cover;
+    overflow: visible;
 }
 
 /** ------------ Present  ------------   */
@@ -49,14 +46,46 @@
     background-color: var(--backPink);
 }
 
-.present .item{
-    flex-basis:10% ;
+.present .item {
+    display: flex;
+    flex-basis: 20%;
 }
 
-.present .pictures{
+.present .label {
+    justify-content: left;
+    align-items: center;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 48px;
+    padding-left: 5%;
+    color: var(--darkPink);
+}
+
+.present .description {
+    justify-content: left;
+    align-items: center;
+    font-family: Montserrat;
+    color: var(--darkPink);
+    font-size: 36px;
+    padding-left: 5%;
+    padding-right: 15%;
+}
+
+.present .pictures {
+    margin-top: 2%  ;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 50%;
     flex-direction: row;
 }
+
+/*.present .pictures .picItem{*/
+/*    width: 20%;*/
+/*    height: 45vh;*/
+/*    background-color: #D87878;*/
+/*    margin-inline: 5%;*/
+/*}*/
 
 
 /** --------------  Create ------------   */

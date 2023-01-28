@@ -19,3 +19,10 @@
   url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
   font-weight: normal;
 }
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+  url("../fonts/Montserrat/static/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: bold;
+}

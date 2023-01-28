@@ -1,0 +1,41 @@
+.container {
+    width: 25%;
+    /*height: 45vh;*/
+    /*background-color: #D87878;*/
+    background-color: var(--backMiniImagePink);
+    border-style: solid ;
+    border-width: 2px;
+    border-color: var(--darkPink);
+    font-family: Montserrat;
+}
+
+.container .image{
+    border-style: none ;
+    border-width: 0;
+    height: 25vh;
+}
+
+.container .desc{
+    height: 20vh;
+    justify-content: left;
+    align-items: center;
+    color: var(--darkPink);
+    font-size: 2vh;
+
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-right: 15%;
+}
+
+.container .desc .lbl{
+    justify-content: left;
+    align-items: center;
+    font-weight: bold;
+    font-size: 3vh;
+    margin: 0;
+
+    color: var(--darkPink);
+}
+.container .desc .text{
+    padding-top: 30px;
+}

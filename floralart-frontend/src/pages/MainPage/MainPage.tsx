@@ -2,10 +2,18 @@ import React from "react";
 import {Header} from "../../components/Header/Header";
 import {Footer} from "../../components/Footer/Footer";
 import {BaseImageLayer} from "./BaseImageLayer/BaseImageLayer";
+import {MiniImage} from "../../components/MiniImage/MiniImage";
+
+import "./mainPage.css"
+
 import flower from "../../assets/img/pink-rose-with-paints.svg"
 import redRose from "../../assets/img/red_rose.svg"
 import roseBg from "../../assets/img/BgLayer.svg";
-import "./mainPage.css"
+import decor from "../../assets/img/miniImage/decor.svg";
+import hairstyle from "../../assets/img/miniImage/hairstyle.svg";
+import accessory from "../../assets/img/miniImage/accessories 1.svg";
+
+
 
 
 export function MainPage() {
@@ -35,19 +43,21 @@ export function MainPage() {
             </div>
 
             <div className="present">
-                <div className="item" >
+                <div className="item label" >
                     Дарите
                 </div>
-                <div className="item">
+                <div className="item description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                 </div>
-                <div className="item pictures">
-                    <div>pic</div>
-                    <div>pic</div>
-                    <div>pic</div>
+                <div className="pictures">
+                    <MiniImage image={decor} label= "Декор" description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia."/>
+                    <MiniImage image={hairstyle} label= "Украшения" description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia."/>
+                    <MiniImage image={accessory} label= "Аксессуары" description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia." />
                 </div>
 
             </div>
+
+
             <div className="create">
                 sdkjfakjsdhfadsk;f
 
