@@ -16,14 +16,14 @@ import quote_img from "../../assets/img/quote_img.svg";
 import {FloralButton} from "../../components/FloralButton/FloralButton";
 
 
-
-
 export function MainPage() {
 
     return (
-        <div className="main">
+        <>
             <Header login='alexgon10@mail.ru'/>
+
             <BaseImageLayer/>
+
             <div className="what-is-floral">
                 <div className="grid-item text ">
                     <div className="label">
@@ -45,39 +45,98 @@ export function MainPage() {
             </div>
 
             <div className="present-create present-style">
-                <div className="item label" >
+                <div className="item-present-create label-present-create">
                     Дарите
                 </div>
-                <div className="item description">
+                <div className="item-present-create description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                 </div>
                 <div className="pictures">
-                    <MiniImage image={decor} label= "Декор" description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia."/>
-                    <MiniImage image={hairstyle} label= "Украшения" description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia."/>
-                    <MiniImage image={accessory} label= "Аксессуары" description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia." />
+                    <MiniImage image={decor} label="Декор"
+                               description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia."/>
+                    <MiniImage image={hairstyle} label="Украшения"
+                               description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia."/>
+                    <MiniImage image={accessory} label="Аксессуары"
+                               description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia."/>
                 </div>
             </div>
 
-
             <div className="present-create create-style">
-                <div className="item label" >
+                <div className="item-present-create label-present-create">
                     Создавайте
                 </div>
-                <div className="item description">
+                <div className="item-present-create description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                 </div>
                 <div className="pictures">
-                    <MiniImage image={decor} label= "Декор" description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia."/>
-                    <MiniImage image={hairstyle} label= "Украшения" description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia."/>
-                    <MiniImage image={accessory} label= "Аксессуары" description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia." />
+                    <MiniImage image={decor} label="Декор"
+                               description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia."/>
+                    <MiniImage image={hairstyle} label="Украшения"
+                               description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia."/>
+                    <MiniImage image={accessory} label="Аксессуары"
+                               description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia."/>
                 </div>
 
             </div>
 
             <div className="custom-order">
-                sdkjfakjsdhfadsk;f
+                <div className=" item-present-create label-present-create">
+                    Заказывайте
+                </div>
+                <div className="grid-container">
+                    <div className="grid-item">
+                        <div className="label">
+                            1. Изучите галерею
+                        </div>
+                        <div className="text">
+                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                            consequuntur magni dolores eos
+                            qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.
+                        </div>
+                        <FloralButton isPaintOvered={false} text={"Галерея"}/>
+                    </div>
+
+                    <div className="grid-item">
+                        <div className="label">
+                            3. Свяжитесь для уточнения заказа
+                        </div>
+                        <div className="text">
+                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                            consequuntur magni dolores eos
+                            qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.
+                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                        </div>
+                        <FloralButton isPaintOvered={false} text={"Написать нам"}/>
+                    </div>
+                    <div className="grid-item">
+                        <div className="label">
+                            2. Соберите композицию
+                        </div>
+                        <div className="text">
+                            Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+                            est, qui dolorem ipsum quia dolor sit amet,
+                            consectetur, adipisci velit, sed quia non numquam.
+                        </div>
+                        <FloralButton isPaintOvered={false} text={"Цветы"}/>
+
+                    </div>
+                    <div className="grid-item">
+                        <div className="label">
+                            4. Наблюдайте за процессом работы в личном кабинете
+                        </div>
+                        <div className="text">
+                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                            consequuntur magni dolores eos
+                            qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.
+                        </div>
+                        <FloralButton isPaintOvered={false} text={"Личный кабинет"}/>
+                    </div>
+
+
+                </div>
 
             </div>
+
             <div className="what-is-floral">
                 <div className="grid-item pic">
                     <img src={redRose} alt="first_bg"/>
@@ -98,14 +157,15 @@ export function MainPage() {
                 </div>
             </div>
 
-
             <div className="rose-bg">
                 <img src={roseBg} alt="first_bg"/>
             </div>
 
             <div className="quote">
                 <div className="text_item">
-                    <div className="quote_text">“Откройте цветок своего сердца и станьте для этого мира подарком красоты ”</div>
+                    <div className="quote_text">“Откройте цветок своего сердца и станьте для этого мира подарком красоты
+                        ”
+                    </div>
                     <hr className="line"/>
                     <div className="author">Брайант МакГилл</div>
 
@@ -117,13 +177,13 @@ export function MainPage() {
             </div>
 
             <div className="choseOrContact ">
-                <div className="text">Создавайте сами или выбирайте готовую и подходящую вам композицию </div>
+                <div className="text">Создавайте сами или выбирайте готовую и подходящую вам композицию</div>
                 <div className="button_group">
                     <FloralButton isPaintOvered={true} text={"Выберете букет"}/>
                     <FloralButton isPaintOvered={false} text={"Связаться с нами"}/>
                 </div>
             </div>
             <Footer/>
-        </div>
+        </>
     )
 }
