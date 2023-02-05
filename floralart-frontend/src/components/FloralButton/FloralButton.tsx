@@ -3,7 +3,7 @@ import './button.css';
 
 type FloralButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
     isPaintOvered: boolean,
-    text: String;
+    text: string;
 }
 
 export const FloralButton = React.forwardRef<HTMLButtonElement, FloralButtonProps>(

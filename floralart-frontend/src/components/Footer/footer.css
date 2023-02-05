@@ -1,6 +1,81 @@
-.hr{
-    margin: 30px;
-    height: 10px;
-    padding-top: 10px;
-    border-color: red;
+.floral-footer {
+    height: 25vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.floral-footer .grid-container {
+    height: 60%;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    justify-content: center;
+    text-align: center;
+}
+
+.floral-footer .grid-container .left-column {
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    text-align: left;
+    padding-top: 10%;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.floral-footer .grid-container .link-style > * {
+    font-family: Montserrat;
+    color: var(--darkPink);
+    font-weight: bold;
+    font-size: 1.5vh;
+    margin: 0;
+    padding: 0;
+}
+
+.floral-footer .grid-container .center {
+    align-self: center;
+}
+
+.floral-footer .grid-container .right-column {
+    display: grid;
+    align-items: center;
+    grid-template-rows: 33% 33% 33%;
+    text-align: right;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 50px;
+}
+
+
+.floral-footer .line {
+    margin: 15px 0;
+    padding: 0;
+    border: none;
+    border-top: 1px solid var(--darkPink);
+    margin-inline: 50px;
+}
+
+.floral-footer .design-by {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 30%;
+    font-family: Montserrat;
+    color: var(--darkPink);
+}
+
+.floral-footer .grid-item {
+    text-align: center;
+    font-size: 1.1em;
+    padding: 1.5em;
+    color: white;
+    z-index: 1;
+}
+
+
+.messangers-buttons {
+    justify-self: end;
+    padding-right: 50px;
 }

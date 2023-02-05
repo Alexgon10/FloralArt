@@ -1,6 +1,6 @@
 button {
-    width: 140px;
-    height: 36px;
+    width: 9vw;
+    height: 4vh;
     margin-left: 10px;
     border-radius: 6px;
     outline-width: 0;
@@ -8,22 +8,22 @@ button {
     cursor: pointer;
 }
 
-.painted {
+.notPainted {
     color: var(--lightPink);
     background-color: white;
     border-color: var(--lightPink);
 }
 
-.notPainted {
+.painted {
     color: white;
     background-color: var(--lightPink);
     border-color: var(--lightPink);
 }
 
-.painted:hover {
+.notPainted:hover {
     border: solid 2px;
 }
 
-.notPainted:hover {
+.painted:hover {
     border-color: white;
 }

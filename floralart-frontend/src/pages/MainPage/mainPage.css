@@ -9,7 +9,6 @@
 }
 
 .what-is-floral .grid-item {
-
     align-items: center;
     justify-items: center;
 }
@@ -78,7 +77,7 @@
 }
 
 .present-create .pictures {
-    margin-top: 2%  ;
+    margin-top: 2%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -133,15 +132,73 @@
 /*  -------------- Quote ------------   */
 .quote {
     height: 50vh;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    align-items: center;
+    justify-items: center;
+}
+
+.quote .text_item {
+    color: var(--darkPink);
+    font-family: Montserrat;
+    padding-inline: 5%;
+}
+
+.quote .quote_text {
+    font-size: 3vh;
+    text-align: center;
+    font-weight: normal;
+    padding-bottom: 3%;
+    line-height: 140%;
+}
+
+.quote .author {
+    text-align: center;
+    font-size: 1.5vh;
+    font-weight: bold;
 
 }
 
+.quote .line {
+    margin: 20px 0;
+    margin-inline: 10%;
+    height: 0;
+    border: none;
+    border-top: 1px solid #333;
+    border-color: var(--darkPink);
+    padding-bottom: 3%;
+
+}
+
+.quote .pic_item {
+    width: 70%;
+    object-fit: cover;
+    overflow: visible;
+}
 
 /*  -------------- Contact us  ------------   */
 .choseOrContact {
     height: 25vh;
     background-color: var(--backPink);
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+    justify-items: center;
+
 }
 
+.choseOrContact .text {
+    text-align: left;
+    line-height: 140%;
+    font-family: Montserrat;
+    color: var(--darkPink);
+    font-size: 3.5vh;
+    padding-left: 10%;
+
+}
+
+.choseOrContact .button_group > * {
+    margin-inline: 20px;
+}
 
 /*  -------------- Footer  ------------   */

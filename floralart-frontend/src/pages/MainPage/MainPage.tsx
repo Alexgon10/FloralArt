@@ -6,12 +6,14 @@ import {MiniImage} from "../../components/MiniImage/MiniImage";
 
 import "./mainPage.css"
 
-import flower from "../../assets/img/pink-rose-with-paints.svg"
+import what_is_floristic_img from "../../assets/img/what_is_floristic_img.svg"
 import redRose from "../../assets/img/red_rose.svg"
 import roseBg from "../../assets/img/BgLayer.svg";
 import decor from "../../assets/img/miniImage/decor.svg";
 import hairstyle from "../../assets/img/miniImage/hairstyle.svg";
 import accessory from "../../assets/img/miniImage/accessory.svg";
+import quote_img from "../../assets/img/quote_img.svg";
+import {FloralButton} from "../../components/FloralButton/FloralButton";
 
 
 
@@ -38,7 +40,7 @@ export function MainPage() {
                     </div>
                 </div>
                 <div className="grid-item pic">
-                    <img src={flower} alt="first_bg"/>
+                    <img src={what_is_floristic_img} alt="first_bg"/>
                 </div>
             </div>
 
@@ -100,13 +102,26 @@ export function MainPage() {
             <div className="rose-bg">
                 <img src={roseBg} alt="first_bg"/>
             </div>
+
             <div className="quote">
+                <div className="text_item">
+                    <div className="quote_text">“Откройте цветок своего сердца и станьте для этого мира подарком красоты ”</div>
+                    <hr className="line"/>
+                    <div className="author">Брайант МакГилл</div>
 
+                </div>
 
+                <div className="pic_item">
+                    <img src={quote_img} alt="first_bg"/>
+                </div>
             </div>
 
             <div className="choseOrContact ">
-
+                <div className="text">Создавайте сами или выбирайте готовую и подходящую вам композицию </div>
+                <div className="button_group">
+                    <FloralButton isPaintOvered={true} text={"Выберете букет"}/>
+                    <FloralButton isPaintOvered={false} text={"Связаться с нами"}/>
+                </div>
             </div>
             <Footer/>
         </div>

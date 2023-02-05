@@ -1,0 +1,10 @@
+.messanger-button {
+    width: 4vh;
+    height: 4vh;
+    outline-width: 0;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    padding: 0;
+    margin-left: 10px;
+}

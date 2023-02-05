@@ -1,5 +1,5 @@
 import React from "react";
-import "./miniImage.css"
+import "./mini-image.css"
 import flower from "../../assets/img/miniImage/decor.svg";
 
 

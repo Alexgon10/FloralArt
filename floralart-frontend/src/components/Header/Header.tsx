@@ -1,13 +1,13 @@
 import React, {useState} from "react";
 import {Logo} from "../Logo/Logo";
 import {Link} from 'react-router-dom'
-import {HeaderLink} from "./HeaderLink"
+import {FloralLink} from "./FloralLink"
 import './header.css';
-import {FloralButton} from "../Buttons/FloralButton";
+import {FloralButton} from "../FloralButton/FloralButton";
 
 interface HeaderProps {
     // isLogin: boolean,
-    login: String
+    login: string
 }
 
 export function Header({login}: HeaderProps) {
@@ -20,10 +20,10 @@ export function Header({login}: HeaderProps) {
                     <Logo/>
                 </div>
                 <div className="links">
-                    <HeaderLink text="Обучение" path="/portfolioPage"/>
-                    <HeaderLink text="Магазин" path="/portfolioPage"/>
-                    <HeaderLink text="Портфолио" path="/portfolioPage"/>
-                    <HeaderLink text="Контакты" path="/portfolioPage"/>
+                    <FloralLink text="Обучение" path="/portfolioPage"/>
+                    <FloralLink text="Магазин" path="/portfolioPage"/>
+                    <FloralLink text="Портфолио" path="/portfolioPage"/>
+                    <FloralLink text="Контакты" path="/portfolioPage"/>
                 </div>
                 {
                     isLogin

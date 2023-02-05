@@ -7,7 +7,7 @@ interface LinkProps {
     path: String;
 }
 
-export function HeaderLink({text, path}: LinkProps) {
+export function FloralLink({text, path}: LinkProps) {
     return (
         <>
             <Link className="link" to={path.toString()}>{text}</Link>
