@@ -14,6 +14,10 @@ import hairstyle from "../../assets/img/miniImage/hairstyle.svg";
 import accessory from "../../assets/img/miniImage/accessory.svg";
 import quote_img from "../../assets/img/quote_img.svg";
 import {FloralButton} from "../../components/FloralButton/FloralButton";
+import group_mk from "../../assets/img/create/group-mk.svg"
+import individual from "../../assets/img/create/individual.svg"
+import kids from "../../assets/img/create/kinds.svg"
+
 
 
 export function MainPage() {
@@ -44,7 +48,7 @@ export function MainPage() {
                 </div>
             </div>
 
-            <div className="present-create present-style">
+            <div className="present-style present-create">
                 <div className="item-present-create label-present-create">
                     Дарите
                 </div>
@@ -61,7 +65,7 @@ export function MainPage() {
                 </div>
             </div>
 
-            <div className="present-create create-style">
+            <div className="create-style present-create">
                 <div className="item-present-create label-present-create">
                     Создавайте
                 </div>
@@ -69,11 +73,11 @@ export function MainPage() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                 </div>
                 <div className="pictures">
-                    <MiniImage image={decor} label="Декор"
+                    <MiniImage image={group_mk} label="Групповые мастер классы"
                                description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia."/>
-                    <MiniImage image={hairstyle} label="Украшения"
+                    <MiniImage image={individual} label="Индивидуальные занятия"
                                description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia."/>
-                    <MiniImage image={accessory} label="Аксессуары"
+                    <MiniImage image={kids} label="Детские мастер классы"
                                description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia."/>
                 </div>
 
